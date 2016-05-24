@@ -53,7 +53,7 @@ namespace Blackjack
                                 "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"
                             };
 
-            int position = RandomNumber(0, 12);
+            int position = RandomNumber(0, 13);
             card = suit[position];
 
             Console.WriteLine("Card = {0}", card);
